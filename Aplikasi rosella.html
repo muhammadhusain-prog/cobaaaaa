@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Edukasi: Potensi Ekstrak Rosella</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Hide number input arrows */
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-4xl">
+        
+        <!-- Header -->
+        <header class="text-center mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold gradient-text mb-2">Potensi Ekstrak Bunga Rosella untuk Atlet</h1>
+            <p class="text-md text-gray-600 dark:text-gray-400">Sebuah Aplikasi Edukasi Berbasis Penelitian untuk Mahasiswa Keolahragaan</p>
+        </header>
+
+        <main class="space-y-8">
+
+            <!-- Introduction Section -->
+            <section class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-xl">
+                <h2 class="text-2xl font-semibold mb-3 text-rose-600 dark:text-rose-400">Latar Belakang Penelitian</h2>
+                <p class="text-justify leading-relaxed">
+                    Latihan fisik dengan intensitas tinggi, seperti yang sering dilakukan oleh atlet, dapat memicu stres oksidatif. Kondisi ini terjadi ketika produksi radikal bebas melebihi kemampuan tubuh untuk menetralkannya. Salah satu dampaknya adalah kerusakan protein seluler, yang dapat diukur melalui kadar <strong>Protein Carbonyl</strong>. Di sisi lain, tubuh memiliki sistem pertahanan antioksidan internal, salah satunya adalah enzim <strong>Superoxide Dismutase (SOD)</strong>. Penelitian ini bertujuan untuk mengkaji potensi ekstrak bunga Rosella (<em>Hibiscus sabdariffa L.</em>) yang kaya akan antioksidan dalam memodulasi kedua parameter ini.
+                </p>
+            </section>
+
+            <!-- Key Concepts Section -->
+            <section class="grid md:grid-cols-2 gap-8">
+                <!-- Protein Carbonyl Card -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-xl flex items-start space-x-4 transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+                    <div class="flex-shrink-0">
+                        <svg class="w-12 h-12 text-amber-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.622L16.125 21.75l-.773-1.128a2.25 2.25 0 00-1.463-1.463L12.75 18.75l1.128-.773a2.25 2.25 0 001.463-1.463L16.125 15l.773 1.128a2.25 2.25 0 001.463 1.463L19.5 18.75l-1.128.773a2.25 2.25 0 00-1.463 1.463z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-1">Protein Carbonyl</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Merupakan penanda kerusakan protein akibat stres oksidatif. <strong>Kadar yang lebih tinggi</strong> mengindikasikan tingkat kerusakan protein yang lebih besar, berpotensi mengganggu fungsi sel dan pemulihan otot.</p>
+                    </div>
+                </div>
+                <!-- SOD Card -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-xl flex items-start space-x-4 transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+                    <div class="flex-shrink-0">
+                        <svg class="w-12 h-12 text-emerald-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-1">Superoxide Dismutase (SOD)</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Salah satu enzim antioksidan endogen terpenting dalam tubuh. <strong>Kadar atau aktivitas yang lebih tinggi</strong> menunjukkan sistem pertahanan antioksidan yang lebih kuat dan efisien.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Interactive Simulator -->
+            <section class="bg-white dark:bg-gray-800 p-6 md:p-8 rounded-xl shadow-xl">
+                <h2 class="text-2xl font-semibold mb-6 text-center text-rose-600 dark:text-rose-400">Kalkulator Simulasi Edukatif</h2>
+                <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+                    <!-- Input Form -->
+                    <div class="space-y-4">
+                        <div>
+                            <label for="intensity" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Pilih Intensitas Latihan:</label>
+                            <select id="intensity" class="mt-1 block w-full bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-rose-500 focus:border-rose-500">
+                                <option value="light">Ringan</option>
+                                <option value="moderate">Sedang</option>
+                                <option value="high" selected>Berat / Intens</option>
+                            </select>
+                            <p id="intensity-example" class="text-xs text-gray-500 dark:text-gray-400 mt-2"></p>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label for="gender" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Jenis Kelamin:</label>
+                                <select id="gender" class="mt-1 block w-full bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-rose-500 focus:border-rose-500">
+                                    <option value="male">Laki-laki</option>
+                                    <option value="female">Perempuan</option>
+                                </select>
+                            </div>
+                             <div>
+                                <label for="age" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Usia (tahun):</label>
+                                <input type="number" id="age" value="25" min="15" max="80" class="mt-1 block w-full bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-rose-500 focus:border-rose-500">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                               <label for="height" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Tinggi Badan (cm):</label>
+                               <input type="number" id="height" value="170" min="100" max="250" class="mt-1 block w-full bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-rose-500 focus:border-rose-500">
+                            </div>
+                            <div>
+                               <label for="weight" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Berat Badan (kg):</label>
+                               <input type="number" id="weight" value="65" min="30" max="200" class="mt-1 block w-full bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-rose-500 focus:border-rose-500">
+                            </div>
+                        </div>
+                        
+                        <div class="bg-gray-100 dark:bg-gray-700/50 p-3 rounded-md">
+                           <p class="text-sm text-center">IMT Anda: <strong id="imtValue">22.5</strong> (<span id="imtCategory" class="font-semibold">Normal</span>)</p>
+                           <p class="text-xs text-gray-500 dark:text-gray-400 mt-1 text-center">*) Kategori IMT berdasarkan standar Kemenkes RI.</p>
+                        </div>
+
+                        <div>
+                            <label for="rosella" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Konsumsi Ekstrak Rosella:</label>
+                            <select id="rosella" class="mt-1 block w-full bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-rose-500 focus:border-rose-500">
+                                <option value="no">Tidak</option>
+                                <option value="yes">Ya</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Results Display -->
+                    <div id="results">
+                        <h3 class="text-lg font-semibold mb-3 text-center">Hasil Simulasi Stres Oksidatif:</h3>
+                        <div class="space-y-4">
+                            <!-- Protein Carbonyl Result -->
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span class="text-sm font-medium">Kerusakan Protein (Carbonyl)</span>
+                                    <span id="carbonylValue" class="text-sm font-medium"></span>
+                                </div>
+                                <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
+                                    <div id="carbonylBar" class="bg-gradient-to-r from-amber-400 to-red-500 h-3 rounded-full transition-all duration-500"></div>
+                                </div>
+                            </div>
+                            <!-- SOD Result -->
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span class="text-sm font-medium">Pertahanan Antioksidan (SOD)</span>
+                                    <span id="sodValue" class="text-sm font-medium"></span>
+                                </div>
+                                <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
+                                    <div id="sodBar" class="bg-gradient-to-r from-green-400 to-emerald-600 h-3 rounded-full transition-all duration-500"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p id="explanation" class="mt-5 text-sm text-center text-gray-600 dark:text-gray-400 p-4 bg-gray-100 dark:bg-gray-700/50 rounded-lg"></p>
+                    </div>
+                </div>
+                 <p class="text-xs text-gray-500 dark:text-gray-400 mt-8 text-center italic">
+                    <strong>Disclaimer:</strong> Kalkulator ini adalah alat simulasi untuk tujuan edukasi, bukan alat diagnostik medis. Hasil yang ditampilkan bersifat ilustratif berdasarkan hipotesis penelitian.
+                </p>
+            </section>
+        </main>
+        
+        <!-- Footer -->
+        <footer class="text-center mt-10 py-5 border-t border-gray-200 dark:border-gray-700">
+            <p class="text-sm text-gray-500 dark:text-gray-400 mb-2">Didukung oleh:</p>
+            <p class="text-sm text-gray-600 dark:text-gray-300 font-semibold">Sport Exercise Research Center - Unesa Science Center</p>
+            <p class="text-sm text-gray-500 dark:text-gray-400">Universitas Negeri Surabaya</p>
+            <p class="text-sm text-gray-500 dark:text-gray-400 mt-4">&copy; 2024 Aplikasi Edukasi Keolahragaan. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        const intensitySelect = document.getElementById('intensity');
+        const intensityExample = document.getElementById('intensity-example');
+        const rosellaSelect = document.getElementById('rosella');
+        const genderSelect = document.getElementById('gender');
+        const ageInput = document.getElementById('age');
+        const heightInput = document.getElementById('height');
+        const weightInput = document.getElementById('weight');
+        const resultsDiv = document.getElementById('results');
+
+        const imtValue = document.getElementById('imtValue');
+        const imtCategory = document.getElementById('imtCategory');
+        const carbonylValue = document.getElementById('carbonylValue');
+        const carbonylBar = document.getElementById('carbonylBar');
+        const sodValue = document.getElementById('sodValue');
+        const sodBar = document.getElementById('sodBar');
+        const explanation = document.getElementById('explanation');
+
+        function updateIntensityExample() {
+            const intensity = intensitySelect.value;
+            let exampleText = '';
+            switch (intensity) {
+                case 'light':
+                    exampleText = 'Contoh: Jalan cepat, peregangan, yoga.';
+                    break;
+                case 'moderate':
+                    exampleText = 'Contoh: Jogging, bersepeda kecepatan sedang, berenang.';
+                    break;
+                case 'high':
+                    exampleText = 'Contoh: Lari sprint, latihan interval (HIIT), angkat beban berat.';
+                    break;
+            }
+            intensityExample.textContent = exampleText;
+        }
+        
+        function updateAndGetIMT() {
+            const height = parseFloat(heightInput.value);
+            const weight = parseFloat(weightInput.value);
+            let imt = 0;
+            let category = 'N/A';
+
+            if (height > 0 && weight > 0) {
+                imt = weight / Math.pow(height / 100, 2);
+                
+                if (imt < 18.5) {
+                    category = 'Underweight';
+                } else if (imt >= 18.5 && imt < 23) {
+                    category = 'Normal';
+                } else if (imt >= 23 && imt < 25) {
+                    category = 'Overweight';
+                } else if (imt >= 25 && imt < 30) {
+                    category = 'Obesitas Tk. I';
+                } else { // imt >= 30
+                    category = 'Obesitas Tk. II';
+                }
+                
+                imtValue.textContent = imt.toFixed(1);
+                imtCategory.textContent = category;
+            } else {
+                imtValue.textContent = '...';
+                imtCategory.textContent = '...';
+            }
+            return imt;
+        }
+
+        function calculateResults() {
+            const intensity = intensitySelect.value;
+            const rosella = rosellaSelect.value;
+            const gender = genderSelect.value;
+            const age = parseInt(ageInput.value) || 25;
+            const imt = updateAndGetIMT();
+            const imtCatText = imtCategory.textContent;
+            const intensityText = intensity === 'high' ? 'berat' : (intensity === 'moderate' ? 'sedang' : 'ringan');
+
+
+            let baseCarbonyl = 0;
+            let baseSOD = 0;
+
+            // Step 1: Set base values based on exercise intensity
+            switch (intensity) {
+                case 'light':
+                    baseCarbonyl = 30; // low oxidative stress
+                    baseSOD = 70;      // high defense
+                    break;
+                case 'moderate':
+                    baseCarbonyl = 60; // medium oxidative stress
+                    baseSOD = 50;      // medium defense
+                    break;
+                case 'high':
+                    baseCarbonyl = 85; // high oxidative stress
+                    baseSOD = 35;      // defense is taxed
+                    break;
+            }
+
+            // Step 2: Adjust for physiological factors (Age, Gender, IMT)
+            if (age > 40) {
+                baseCarbonyl *= 1.1; // 10% higher baseline stress
+                baseSOD *= 0.95;     // 5% lower baseline defense
+            }
+            if (gender === 'male') {
+                 baseCarbonyl *= 1.05; // 5% higher due to avg higher muscle mass
+            }
+            
+            if (imt > 0) { // Only apply if IMT is valid
+                if (imt < 18.5) { // Underweight
+                    baseCarbonyl *= 1.05; // 5% higher (assumed stress)
+                    baseSOD *= 0.95;      // 5% lower
+                } else if (imt >= 23 && imt < 25) { // Overweight
+                    baseCarbonyl *= 1.1; // 10% higher
+                    baseSOD *= 0.95;     // 5% lower
+                } else if (imt >= 25 && imt < 30) { // Obesitas I
+                    baseCarbonyl *= 1.2;  // 20% higher
+                    baseSOD *= 0.85;      // 15% lower
+                } else if (imt >= 30) { // Obesitas II
+                    baseCarbonyl *= 1.35; // 35% higher
+                    baseSOD *= 0.75;      // 25% lower
+                }
+                // Normal range (18.5-22.9) has no adjustment
+            }
+
+
+            let finalCarbonyl = baseCarbonyl;
+            let finalSOD = baseSOD;
+            let explanationText = '';
+
+            // Step 3: Adjust values based on rosella consumption
+            if (rosella === 'yes') {
+                finalCarbonyl = Math.max(10, baseCarbonyl * 0.65); // Reduce by 35%, with a minimum floor
+                finalSOD = Math.min(95, baseSOD * 1.40); // Increase by 40%, with a maximum ceiling
+                 
+                explanationText = `Berdasarkan data Anda (Usia ${age}, IMT ${imtCatText}), konsumsi Rosella <strong>menurunkan</strong> potensi kerusakan protein dan <strong>mendukung</strong> pertahanan antioksidan setelah latihan ${intensityText}. Ini menunjukkan potensi pemulihan yang lebih baik.`;
+            } else {
+                 explanationText = `Untuk profil Anda (Usia ${age}, IMT ${imtCatText}), latihan ${intensityText} tanpa Rosella menunjukkan tingkat kerusakan protein yang lebih tinggi dan pertahanan antioksidan yang lebih rendah. Faktor fisiologis Anda (usia, jenis kelamin, dan IMT) turut memengaruhi respons ini.`;
+            }
+            
+            // Clamp values between a reasonable range 0-100
+            finalCarbonyl = Math.max(0, Math.min(100, finalCarbonyl));
+            finalSOD = Math.max(0, Math.min(100, finalSOD));
+
+            updateUI(finalCarbonyl, finalSOD, explanationText);
+        }
+
+        function updateUI(carbonyl, sod, text) {
+            const carbonylStatus = carbonyl > 75 ? "Tinggi" : carbonyl > 50 ? "Sedang" : "Rendah";
+            carbonylValue.textContent = carbonylStatus;
+            carbonylBar.style.width = `${carbonyl}%`;
+            
+            const sodStatus = sod > 75 ? "Baik" : sod > 50 ? "Cukup" : "Kurang";
+            sodValue.textContent = sodStatus;
+            sodBar.style.width = `${sod}%`;
+            
+            explanation.innerHTML = text;
+
+            resultsDiv.classList.remove('hidden');
+        }
+
+        // Add event listeners to all inputs to recalculate on change
+        [intensitySelect, rosellaSelect, genderSelect, ageInput, heightInput, weightInput].forEach(el => {
+            el.addEventListener('input', calculateResults); // 'input' for real-time update
+        });
+        
+        intensitySelect.addEventListener('change', updateIntensityExample);
+
+        // Initial calculation on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            updateIntensityExample();
+            calculateResults();
+        });
+    </script>
+</body>
+</html>
+
+
+
+
